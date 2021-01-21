@@ -39,8 +39,8 @@ export const HeroScreen = ({history}) => {
             <div className="col-4">
             <img 
             //  src={`../prueba/${ heroeId }.jpg`}
-             src={`../../../../assets/heroes/dc-arrow.jpg`}
-            //  src={'../prueba/' + ${heroeId} + '.jpg'};
+             src={`../../../../assets/heroes/${heroeId}.jpg`}
+            //  src={'../prueba/' +  + '.jpg'};
              className="img-thumbnail animate__animated animate__fadeInLeft"
              alt={ superhero}/>
             
